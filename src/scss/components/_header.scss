@@ -1,0 +1,44 @@
+.ps-top-bar {
+    font-size: 12px;
+
+    a {
+        transition: all 0.3s linear;
+    }
+}
+
+.ps-top-tags {
+    a {
+        &:hover {
+            opacity: 0.5
+        }
+    }
+}
+
+.ps-top-social {
+    li:last-child {
+        a {
+            padding-right: 0;
+        }
+    }
+
+    a:hover {
+        color: #ffffff !important;
+    }
+}
+
+.ps-header-logo {
+    @media screen and (max-width: 1399px) {
+        width: 150px;
+    }
+}
+.ps-toggle-menu:not(.is-single) {
+    display: none;
+    @media screen and (max-width: 991px) {
+        display: inline-block;
+    }
+}
+
+img.ads-top-img {
+    width: 100%;
+    max-width: 728px;
+}

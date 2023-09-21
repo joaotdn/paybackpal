@@ -1,0 +1,21 @@
+.ps-footer {
+    border-top: 3px solid $black;
+    &--nav {
+        a {
+            font-size: 12px;
+            color: $gray-500;
+            padding-left: 0;
+            &:hover, &:active {color: $gray-200;}
+            &:not(:last-child) {
+                padding-bottom: 0;
+            }
+        }
+    }
+    &--credits {
+        border-top: 1px solid $gray-800;
+        p {
+            font-size: 12px;
+            color: $gray-400;
+        }
+    }
+}
